@@ -36,6 +36,9 @@
     <ClCompile Include="AssetManager.cpp">
       <Filter>Managers</Filter>
     </ClCompile>
+    <ClCompile Include="ImputManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="State.h">
@@ -45,6 +48,9 @@
       <Filter>States\Headers</Filter>
     </ClInclude>
     <ClInclude Include="AssetManager.h">
+      <Filter>Managers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ImputManager.h">
       <Filter>Managers\Headers</Filter>
     </ClInclude>
   </ItemGroup>
