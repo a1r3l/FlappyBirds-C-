@@ -25,6 +25,9 @@
     <Filter Include="Managers\Headers">
       <UniqueIdentifier>{390dac54-a406-4bdd-aaca-0c39821e036d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Definitions">
+      <UniqueIdentifier>{dc4d29d5-9be1-4034-91f7-cfd272bcd36d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -39,6 +42,12 @@
     <ClCompile Include="ImputManager.cpp">
       <Filter>Managers</Filter>
     </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="SplashState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="State.h">
@@ -52,6 +61,15 @@
     </ClInclude>
     <ClInclude Include="ImputManager.h">
       <Filter>Managers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Archivos de código fuente</Filter>
+    </ClInclude>
+    <ClInclude Include="SplashState.h">
+      <Filter>States\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Definitions.h">
+      <Filter>Definitions</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
